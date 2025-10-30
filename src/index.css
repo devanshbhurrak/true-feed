@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-yellow: #FEF9E1;
+  --color-beige: #E5D0AC;
+  --color-red: #A31D1D;
+  --color-maroon: #6D2323;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
