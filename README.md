@@ -1,79 +1,57 @@
-# TrueFeed
+# 📰 TrueFeed  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-TrueFeed-green?style=flat&logo=vercel)](https://true-feed-henna.vercel.app/)
+[![Built with React](https://img.shields.io/badge/Built%20with-React-blue?style=flat&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-06B6D4?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
 
-Lightweight React + Vite news aggregator that fetches headlines from GNews and displays them with category filters, search, infinite loading and theme toggling.
-
----
-
-## 🖼️ Screenshots
-![Home Page](public/preview-home.png)
-![Search Page](public/preview-search.png)
+> **TrueFeed** — A fast, minimal, and responsive news aggregator built with **React + Vite**, powered by the **GNews API**.  
+> Browse the latest headlines by category, search for topics, toggle dark/light mode, and enjoy smooth infinite scrolling.
 
 ---
 
-## Table of contents
-- [Quick Start](#quick-start)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Environment](#environment)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Key Files & Responsibilities](#key-files--responsibilities)
-- [API & Data Flow](#api--data-flow)
-- [Styling & Theming](#styling--theming)
-- [Deployment](#deployment)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+## 🚀 Live Preview  
+🔗 **https://true-feed-henna.vercel.app/**  
 
 ---
 
-## Quick Start
-
-1. Install dependencies
-```bash
-npm install
-```
-
-2. Add API key to `.env` (see `.env.example` if present)
-```
-VITE_NEWS_API_KEY=YOUR_GNEWS_API_KEY
-```
-
-3. Run development server
-```bash
-npm run dev
-```
-
-4. Build and preview
-```bash
-npm run build
-npm run preview
-```
+## 🧠 Overview  
+TrueFeed is designed as a lightweight, user-friendly platform that aggregates real-time news articles from the GNews API.  
+It offers category-based browsing, a global search system, dynamic pagination, and a clean theme toggle — all wrapped in a modern, responsive interface.
 
 ---
 
-## Features
-- Fetch top headlines and category-specific news
-- Search by query
-- Category filter component
-- Infinite/load-more paging
-- Light / Dark theme toggle
-- Back-to-top button
-- Error and loading states
-- Responsive grid & cards
+## ✨ Features  
+✅ Fetch **Top Headlines** and **Category-Specific** news  
+✅ **Search** for articles across multiple sources  
+✅ **Infinite Scroll** / “Load More” pagination  
+✅ **Light / Dark** theme toggle using Tailwind  
+✅ **Category Filter** with active highlighting  
+✅ **Back-to-Top** button for improved UX  
+✅ **Error & Loading** state handling  
+✅ Fully **Responsive Grid Layout**
 
 ---
 
-## Tech Stack
-- Framework: React + Vite
-- Styling: Tailwind CSS (via PostCSS, configured in src/index.css)
-- State: React Context (NewsContext)
-- API: GNews (via src/api/newsApi.js)
-- Deployment: Vercel (vercel.json included)
+## 🖼️ Screenshots  
+| Home | Search |
+|------|---------|
+| ![Home Page](public/preview-home.png) | ![Search Page](public/preview-search.png) |
 
 ---
 
-## Environment
+## 🧩 Tech Stack  
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React 18, Vite |
+| **Styling** | Tailwind CSS, PostCSS |
+| **State Management** | React Context API |
+| **API** | GNews API |
+| **Deployment** | Vercel |
+| **Version Control** | Git + GitHub |
+
+---
+
+## ⚙️ Environment Variables  
+Create a `.env` file in the project root and add the following key:
 - Vite exposes env vars prefixed with `VITE_`. Required:
   - `VITE_NEWS_API_KEY` — GNews API key
 
